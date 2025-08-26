@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#home"><h1 class="logo"><span>J</span>arin.</h1></a>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="im">
+            <img class="img1" src="pic1-2.jpg" alt="image">
+            <span class="circle-spin"></span>
+        </div>
+        <div class="home-grid">
+            <div class="home-content">
+                <h3>Hello, It's <span>Me</span></h3>
+                <h1>JARIN TASNIM DIYA</h1>
+                <h3 class="animated-text">DATA SCIENTIST</h3>
+                <p>I'm a software enthusiast with a strong interest to pursue my career in Software Industry.</p>
+            </div>
+            <div>
+                <button class="cv">
+                    <a href="JARIN TASNIM.pdf">Download Resume <i class='bx bxs-download'></i></a>
+                </button>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="about">
+        <div class="about-content">
+            <div class="content">
+                <h2>About <span>Me</span></h2>
+                <p>I'm Jarin Tasnim Diya, a final-year Electrical and Electronic Engineering (EEE) student at the
+                    Chittagong University of Engineering and Technology (CUET) with a strong interest in pursuing a
+                    career in the software development industry. I am passionate about the potential of machine learning,
+                    deep learning, and artificial intelligence (AI). I have learned Python programming language and
+                    applied
+                    my skills to various projects. I am eager to continue growing in the field of software development
+                    and
+                    am particularly interested in opportunities that allow me to work on real-life projects and
+                    collaborate
+                    with professionate teams.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <div class="edu-row">
+            <div class="timeline">
+                <h3><i class='bx bxs-calendar' ></i>  2019-20224</h3>
+                <p>Chittagong University of Engineering and Technology
+                <br>Electrical and Electronic Engineering
+                    <br>CGPA - 3.56/4.00
+                </p>
+            </div>
+            <div class="timeline">
+                <h3><i class='bx bxs-calendar' ></i>  2018</h3>
+                <p>Abdul Kadir Mollah City College
+                    <br>Science
+                    <br>GPA - 5.00/5.00
+                </p>
+            </div>
+            <div class="timeline">
+                <h3><i class='bx bxs-calendar' ></i>  2016</h3>
+                <p>Pakundia Girls High School
+                    <br>Science
+                    <br>GPA - 5.00/5.00
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skill-container">
+            <div class="skill">
+                <img src="https://cdn-icons-png.flaticon.com/512/5968/5968350.png" alt="Python">
+                <p>Python</p>
+            </div>
+            <div class="skill">
+                <img src="scikit-learn.svg" alt="Python">
+                <p>Scikit-learn</p>
+            </div>
+            <div class="skill">
+                <img src="tensorflow.svg" alt="Python">
+                <p>TensorFlow</p>
+            </div>
+            <div class="skill">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/OpenCV_Logo_with_text_svg_version.svg"
+                    alt="OpenCV">
+                <p>OpenCV</p>
+            </div>
+            <div class="skill">
+                <img src="spaCy.png" alt="Python">
+                <p>SpaCy</p>
+            </div>
+            <div class="skill">
+                <img src="django.svg" alt="Python">
+                <p>Django</p>
+            </div>
+            <div class="skill">
+                <img src="https://cdn-icons-png.flaticon.com/512/528/528260.png" alt="MySQL">
+                <p>MySQL</p>
+            </div>
+            <div class="skill">
+                <img src="numpy.svg"  alt="NumPy"   />
+                <p>NumPy</p>
+            </div>
+            <div class="skill">
+                <img src="pandas.svg" alt="Pandas">
+                <p>Pandas</p>
+            </div>
+            <div class="skill">
+                <img src="matplotlib.svg" alt="Matplotlib">
+                <p>Matplotlib</p>
+            </div>
+            <div class="skill">
+                <img src="html.svg" alt="HTML">
+                <p>HTML</p>
+            </div>
+            <div class="skill">
+                <img src="css.svg" alt="CSS">
+                <p>CSS</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project" data-url="project1.html">
+                <div class="title">
+                    <img src="planting.png" alt="Image">
+                    <h3> Predictive Modeling for Agriculture </h3>
+                </div>
+                <ul>
+                    <li>Built a machine learning model to recommend optimal crops based on soil and weather data. </li>
+                    <li>Evaluated multiple classifiers and achieved 99.45% accuracy with Random Forest.</li>
+                    <li><span>Tech: </span>Python, Scikit-learn</li>
+                </ul>
+            </div>
+            <div class="project" data-url="project2.html">
+                <div class="title">
+                    <img src="emotional.png" alt="Image">
+                    <h3>Twitter Sentiment Analysis</h3>
+                </div>
+                <ul>
+                    <li>Developed an NLP pipeline with tokenization, lemmatization, and stop-word removal for sentiment classification. </li>
+                    <li>Implemented Random Forest and Logistic Regression; assessed with accuracy, precision, recall, and F1-score.</li>
+                    <li><span>Tech: </span>Python, NLTK, Scikit-learn</li>
+                </ul>
+            </div>
+            <div class="project" data-url="project3.html">
+                <div class="title">
+                    <img src="booklets.png" alt="Image">
+                    <h3>Book Recommendation System</h3>
+                </div>
+                <ul>
+                    <li>Designed a collaborative filtering engine to recommend books by genre or user preferences.</li>
+                    <li>Applied cosine similarity to calculate pairwise similarity and generate recommendations.</li>
+                    <li><span>Tech: </span>Python, Cosine Similarity</li>
+                </ul>
+            </div>
+            <div class="project" data-url="project4.html">
+                <div class="title">
+                    <img src="graduation-cap.png" alt="Image">
+                    <h3> CUET Clearance System </h3>
+                </div>
+                <ul>
+                    <li>Individual dashboard that displays the issue dates of all academic gradesheets.</li>
+                    <li>Online application system for academic transcripts and other certificates.</li>
+                    <li>Online payment system for the application.</li>
+                    <li><span>Tech: </span>Flask, HTML, CSS, MySQL. </li>
+                </ul>
+            </div>
+            <div class="project" data-url="project2.html">
+                <div class="title">
+                    <img src="icons-dictionary.png" alt="Image">
+                    <h3>Engineer’s Dictionary</h3>
+                </div>
+                <ul>
+                    <li>A GUI-based dictionary that provides definitions from an engineering perspective</li>
+                    <li>It has the functionality of storing new words in a text file for future modification</li>
+                    <li><span>Tech: </span>Python, Tkinter</li>
+                </ul>
+            </div>
+            <div class="project" data-url="project3.html">
+                <div class="title">
+                    <img src="icons-task.png" alt="Image">
+                    <h3>TO-DO: Your Day Planar</h3>
+                </div>
+                <ul>
+                    <li>Daily Schedule Planner</li>
+                    <li>Task Organizer According to Date</li>
+                    <li>Timely Reminder</li>
+                    <li>Alarm Function</li>
+                    <li><span>Tech: </span>Python</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section id="contact">
+        <h2>Contact <span>Me</span></h2>
+        <p class="address"><span>Address: </span>Pakundia, Kishoregonj, Dhaka, Bangladesh</p>
+        <div class="contact-col">
+            <p class="email"><span>Email: </span>0jarintasnimdiya@gmail.com</p>
+            <p class="phn"><span>Phone: </span>+8801759517471 </p>
+            <p class="linkdln"><span>LinkedIn: </span><a href="https://www.linkedin.com/in/jarin-tasnim-diya"
+                    target="_blank">jarin-tasnim-diya</a>
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyright &copy; 2024 Jarin Tasnim Diya</p>
+    </footer>
+</body>
+
+</html>
